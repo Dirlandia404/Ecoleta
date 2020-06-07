@@ -2,9 +2,10 @@
     #page-home{
         background-position-x: 70vw;
     }
-    #page-home content{
+    #page-home .content{
         align-items: center;
         text-align: center;
+        
     }
 
     #page-home header a{
@@ -16,6 +17,12 @@
     }
     #page-home main{
         align-items: center;
+    }
+    #page-search-results .cards{
+        grid-template-columns: 1fr ;
+    }
+    #page-search-results .cards{
+        height: 250px;
     }
 }
 @media(min-width:1700px){
